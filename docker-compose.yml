@@ -1,8 +1,7 @@
 version: '2'
 
 services:
-  klipper:
-    image: dimalo/klipper-moonraker
+  klipper: 
     build:
       dockerfile: ./klipper/Dockerfile
       context: .
